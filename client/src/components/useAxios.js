@@ -14,7 +14,7 @@ const useAxios = (url, initialValue) => {
     };
     axiosData();
   }, [url]);
-  return { loading, data };
+  return { data };
 };
 
 export default useAxios;
